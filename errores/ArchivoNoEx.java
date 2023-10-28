@@ -5,7 +5,7 @@ public class ArchivoNoEx {
     public static void main(String[] args) {
         try {
             FileReader archivo = new FileReader("prueba1.txt");
-            // Realizar operaciones de lectura aquí
+            System.out.println("El archivo existe y esta corriendo");
             archivo.close();
         } catch (FileNotFoundException e) {
             System.err.println("Error: Archivo no encontrado");
